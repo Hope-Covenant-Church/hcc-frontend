@@ -20,67 +20,50 @@
 }
 
 .container {
-  max-width: 800px;
+  max-width: 780px;
   margin: 0 auto;
 }
 
-.page-intro {
+.container>p:first-of-type {
   text-align: center;
   font-size: 1.05rem;
   color: #4a5568;
   margin-bottom: 3rem;
 }
 
-.ministries-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.ministry-row {
-  display: flex;
-  gap: 2rem;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid #edf2f7;
-}
-
-.ministry-row:last-child {
-  border-bottom: none;
-}
-
-.ministry-left {
-  flex: 0 0 240px;
-}
-
-.ministry-left h3 {
-  font-size: 1rem;
-  font-weight: 600;
+.content-section h2 {
+  font-size: 1.65rem;
   color: #1a1a2e;
-  margin-bottom: 0.2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
 }
 
-.ministry-when {
-  font-size: 0.85rem;
+.content-section h3 {
+  font-size: 1.2rem;
   color: #0078a7;
-  font-weight: 500;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
 }
 
-.ministry-right {
-  flex: 1;
-  min-width: 0;
-}
-
-.ministry-details {
-  font-size: 0.9rem;
+.content-section p {
+  margin-bottom: 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
   color: #4a5568;
-  line-height: 1.6;
-  margin: 0;
 }
 
 .ministry-contact {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: #718096;
-  margin: 0.35rem 0 0;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ministry-contact strong {
+  color: #4a5568;
 }
 
 @media (max-width: 768px) {
@@ -90,14 +73,5 @@
 
   .page-hero-content h1 {
     font-size: 2rem;
-  }
-
-  .ministry-row {
-    flex-direction: column;
-    gap: 0.35rem;
-  }
-
-  .ministry-left {
-    flex: none;
   }
 }
