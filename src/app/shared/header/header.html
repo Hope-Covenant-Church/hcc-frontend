@@ -1,0 +1,20 @@
+<header>
+  <div class="header-inner">
+    <a class="logo" routerLink="/" (click)="closeMenu()">
+      <img src="/images/logo.png" alt="Hope Covenant Church" class="logo-img">
+      <span class="logo-text">HOPE COVENANT CHURCH</span>
+    </a>
+    <button class="menu-toggle" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav [class.open]="menuOpen">
+      <a routerLink="/" routerLinkActive="active" (click)="closeMenu()" [routerLinkActiveOptions]="{exact:true}">Home</a>
+      <a routerLink="/about-us" routerLinkActive="active" (click)="closeMenu()">About Us</a>
+      <a routerLink="/projects" routerLinkActive="active" (click)="closeMenu()">Ministries</a>
+      <a routerLink="/services" routerLinkActive="active" (click)="closeMenu()">Sermons</a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()" class="contact-btn">Contact</a>
+    </nav>
+  </div>
+</header>

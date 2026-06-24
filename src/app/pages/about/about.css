@@ -1,0 +1,115 @@
+.about-hero {
+  position: relative;
+  background: linear-gradient(rgba(26,26,46,0.7), rgba(15,52,96,0.75)), url('/images/about-hero.jpg') center/cover no-repeat;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero-content h1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.content-section {
+  padding: 4rem 1.5rem;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  font-size: 1.65rem;
+  color: #1a1a2e;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.content-section h2:first-child {
+  margin-top: 0;
+}
+
+.content-section h3 {
+  font-size: 1.2rem;
+  color: #0078a7;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.content-section p {
+  margin-bottom: 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: #4a5568;
+}
+
+.emphasis {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  color: #c9a84c;
+  font-weight: 600;
+  padding: 1.25rem 0;
+  font-style: italic;
+}
+
+.value-block {
+  margin-bottom: 1.5rem;
+}
+
+.music-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0;
+}
+
+.music-list li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.7;
+}
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.leadership-card {
+  background: #f7f7fc;
+  padding: 1.75rem;
+  border-radius: 8px;
+  border-left: 3px solid #c9a84c;
+}
+
+.leadership-card h3 {
+  margin-top: 0;
+  color: #1a1a2e;
+  font-size: 1.1rem;
+}
+
+.leadership-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    min-height: 55vh;
+  }
+
+  .page-hero-content h1 {
+    font-size: 2rem;
+  }
+}

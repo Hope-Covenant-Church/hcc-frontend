@@ -1,0 +1,28 @@
+<section class="page-hero ministries-hero">
+  <div class="page-hero-content">
+    <h1>MINISTRIES</h1>
+  </div>
+  <div class="scroll-indicator">
+    <span class="chevron"></span>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <p class="page-intro">We have a variety of ministries meeting throughout the week. Everyone is welcome to join us.</p>
+    <div class="ministries-list">
+      <div class="ministry-row" *ngFor="let m of ministries">
+        <div class="ministry-left">
+          <h3>{{ m.name }}</h3>
+          <span class="ministry-when">{{ m.when }}</span>
+        </div>
+        <div class="ministry-right">
+          <p class="ministry-details">{{ m.details }}</p>
+          <p class="ministry-contact" *ngIf="m.contactName">
+            Contact: {{ m.contactName }}<span *ngIf="m.contact"> ({{ m.contact }})</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

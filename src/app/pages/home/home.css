@@ -1,0 +1,182 @@
+.hero {
+  background: linear-gradient(rgba(26,26,46,0.7), rgba(15,52,96,0.75)), url('/images/hero-bg.webp') center/cover no-repeat;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.hero-tagline {
+  color: #c9a84c;
+  font-size: 1rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.services-section {
+  background: #fff;
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.services-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+  color: #1a1a2e;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.services-list {
+  max-width: 520px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.service-item {
+  background: #f7f7fc;
+  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.service-item:hover {
+  background: #eeedf5;
+}
+
+.service-name {
+  font-weight: 500;
+  color: #1a1a2e;
+  font-size: 1rem;
+}
+
+.service-time {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #c9a84c;
+  font-family: 'Playfair Display', Georgia, serif;
+  white-space: nowrap;
+}
+
+.cards-section {
+  padding: 5rem 1.5rem;
+  background: #f4f4f9;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.card-img {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img-about {
+  background-image: url('/images/about-card.jpg');
+}
+
+.card-img-ministries {
+  background-image: url('/images/ministries-card.jpg');
+}
+
+.card-img-sermons {
+  background-image: url('/images/sermons-card.jpg');
+}
+
+.card-body {
+  padding: 1.5rem 1.75rem;
+}
+
+.card-body h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.card-body p {
+  color: #718096;
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.card-link {
+  color: #0078a7;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+
+.card:hover .card-link {
+  color: #005f85;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 55vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-tagline {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+  }
+
+  .service-item {
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .card-img {
+    height: 180px;
+  }
+}

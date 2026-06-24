@@ -1,0 +1,138 @@
+header {
+  background: #fff;
+  color: #1a1a2e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-img {
+  height: 44px;
+  width: auto;
+}
+
+.logo-text {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0078a7;
+  letter-spacing: 0.5px;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.menu-toggle .bar {
+  width: 24px;
+  height: 2px;
+  background: #1a1a2e;
+  display: block;
+  transition: 0.3s;
+  border-radius: 1px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+nav a {
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #0078a7;
+  background: rgba(0,120,167,0.06);
+}
+
+.contact-btn {
+  background: #1a1a2e;
+  color: #fff !important;
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.contact-btn:hover,
+.contact-btn.active {
+  background: #2a2a4e !important;
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    font-size: 0.95rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  nav.open {
+    display: flex;
+  }
+
+  nav a {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .contact-btn {
+    margin-left: 0;
+    border-radius: 6px;
+  }
+
+  nav.open {
+    background: #fff;
+  }
+}

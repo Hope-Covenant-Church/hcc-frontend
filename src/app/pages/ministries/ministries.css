@@ -1,0 +1,103 @@
+.ministries-hero {
+  position: relative;
+  background: linear-gradient(rgba(22,33,62,0.75), rgba(15,52,96,0.8)), url('/images/ministries-card.jpg') center/cover no-repeat;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero-content h1 {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.content-section {
+  padding: 4rem 1.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-intro {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #4a5568;
+  margin-bottom: 3rem;
+}
+
+.ministries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ministry-row {
+  display: flex;
+  gap: 2rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.ministry-row:last-child {
+  border-bottom: none;
+}
+
+.ministry-left {
+  flex: 0 0 240px;
+}
+
+.ministry-left h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.2rem;
+}
+
+.ministry-when {
+  font-size: 0.85rem;
+  color: #0078a7;
+  font-weight: 500;
+}
+
+.ministry-right {
+  flex: 1;
+  min-width: 0;
+}
+
+.ministry-details {
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ministry-contact {
+  font-size: 0.85rem;
+  color: #718096;
+  margin: 0.35rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .ministries-hero {
+    min-height: 55vh;
+  }
+
+  .page-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .ministry-row {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .ministry-left {
+    flex: none;
+  }
+}
