@@ -8,4 +8,5 @@ import { RouterLink } from '@angular/router';
   styleUrl: './footer.css'
 })
 export class FooterComponent {
+  email = ['admin', '@', 'hopecovenant', '.', 'co', '.', 'za'].join('');
 }

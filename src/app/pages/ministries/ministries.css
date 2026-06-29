@@ -1,6 +1,6 @@
 .ministries-hero {
   position: relative;
-  background: linear-gradient(rgba(22,33,62,0.75), rgba(15,52,96,0.8)), url('/images/ministries-card.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(22,33,62,0.75), rgba(15,52,96,0.8)), url('/images/ministries-card.webp') center/cover no-repeat;
   min-height: 85vh;
   display: flex;
   align-items: center;

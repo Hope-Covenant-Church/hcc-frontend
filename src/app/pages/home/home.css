@@ -115,15 +115,15 @@
 }
 
 .card-img-about {
-  background-image: url('/images/about-card.jpg');
+  background-image: url('/images/about-card.webp');
 }
 
 .card-img-ministries {
-  background-image: url('/images/ministries-card.jpg');
+  background-image: url('/images/ministries-card.webp');
 }
 
 .card-img-sermons {
-  background-image: url('/images/sermons-card.jpg');
+  background-image: url('/images/sermons-card.webp');
 }
 
 .card-body {

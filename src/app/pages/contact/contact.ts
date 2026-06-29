@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-contact',
-  imports: [],
   templateUrl: './contact.html',
   styleUrl: './contact.css'
 })
 export class ContactPage {
+  email = ['admin', '@', 'hopecovenant', '.', 'co', '.', 'za'].join('');
 }

@@ -1,6 +1,6 @@
 .sermons-hero {
   position: relative;
-  background: linear-gradient(rgba(15,52,96,0.75), rgba(26,26,46,0.8)), url('/images/sermons-hero.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(15,52,96,0.75), rgba(26,26,46,0.8)), url('/images/sermons-hero.webp') center/cover no-repeat;
   min-height: 85vh;
   display: flex;
   align-items: center;
