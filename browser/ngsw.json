@@ -1,0 +1,107 @@
+{
+  "configVersion": 1,
+  "timestamp": 1782736585989,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-CMX6FSE4.js",
+        "/chunk-CW2IAOKW.js",
+        "/chunk-EI4QQVGX.js",
+        "/chunk-K3ZCJE2P.js",
+        "/chunk-T4OA65OI.js",
+        "/chunk-TBDWUEQS.js",
+        "/chunk-UCXZ4AM5.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-PM2S6YPZ.js",
+        "/styles-BSUHAMWG.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/documents/Hope Covenant Constitution.pdf",
+        "/icons/icon-192x192.png",
+        "/icons/icon-512x512.png",
+        "/images/about-card.jpg",
+        "/images/about-card.webp",
+        "/images/about-hero.jpg",
+        "/images/about-hero.webp",
+        "/images/hero-bg.webp",
+        "/images/logo-name.png",
+        "/images/logo.png",
+        "/images/ministries-card.jpg",
+        "/images/ministries-card.webp",
+        "/images/og-image.png",
+        "/images/sermons-card.jpg",
+        "/images/sermons-card.webp",
+        "/images/sermons-hero.jpg",
+        "/images/sermons-hero.webp"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/chunk-CMX6FSE4.js": "51f93cd31902eba6c18eeef56f9b11c71a8728a8",
+    "/chunk-CW2IAOKW.js": "70bad2027e324bc36eb3bead9c102e005375a4bd",
+    "/chunk-EI4QQVGX.js": "781fcff958e615cc7cb4c4b0936ac91b7d980e63",
+    "/chunk-K3ZCJE2P.js": "16acbc04c6f9ce39a4615b110100c90d5ed3baaf",
+    "/chunk-T4OA65OI.js": "8a4e0dd940d843c01356f2d9df9dbd9a6ce2097f",
+    "/chunk-TBDWUEQS.js": "23a353f4e13c32506c104832e9d337d461e5cf4f",
+    "/chunk-UCXZ4AM5.js": "eb05fc9f3100ad4e29cca0be7b9f21cff4483d86",
+    "/documents/Hope Covenant Constitution.pdf": "0a3b8c55cc06efe27fb51632841fb5cd4d1a021d",
+    "/favicon.ico": "9ffd5f05e935a31a05f31fc2768ef01eb83e9eea",
+    "/icons/icon-192x192.png": "6bde580b2a7105770cdcc43ff86ce557bdd5f06e",
+    "/icons/icon-512x512.png": "d4ec4e347736d7f84f24c977ac21642bf8384538",
+    "/images/about-card.jpg": "e31fa38fc973c5335b77fad15988d76a29e53de8",
+    "/images/about-card.webp": "dd594bf47108a2ec5ccd1a0f3093df24b2d4fb69",
+    "/images/about-hero.jpg": "421f47edccecac083ec3341200945255cb259cb2",
+    "/images/about-hero.webp": "6d571f555b1aa59f0091a9370f8f2bb93315deb6",
+    "/images/hero-bg.webp": "105b393d526ecb5eaf02087a1d8a094b9256220a",
+    "/images/logo-name.png": "6844a4b547ff2131bd9a55bae5a1d266b04e3ff1",
+    "/images/logo.png": "9ffd5f05e935a31a05f31fc2768ef01eb83e9eea",
+    "/images/ministries-card.jpg": "1cc68fe97cf626f382aaf0fb836741cd658c6416",
+    "/images/ministries-card.webp": "ed347f2130f976c4ceddf6d7634a65ade265215c",
+    "/images/og-image.png": "006e82560f9f2f076ecbdad53d1b29320e5a8c11",
+    "/images/sermons-card.jpg": "69029313d145d970ed08fd9b6fe395ffa3e9caef",
+    "/images/sermons-card.webp": "65d22e739e2b38ef2a5f36aa2f50e86cebcd6f9b",
+    "/images/sermons-hero.jpg": "81d074c673625c89bb9a9da98bd281ccd1cecb82",
+    "/images/sermons-hero.webp": "5de9e45bf6be0538c863a7a6a47f176764831c6b",
+    "/index.html": "b62fa7862261953cf9da73732292eb10959d8316",
+    "/main-PM2S6YPZ.js": "e0471f9b00e2a1aab39229f4d9f1862b2599adfd",
+    "/styles-BSUHAMWG.css": "26111035266c446a1764abf4f085a7778e374954"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
