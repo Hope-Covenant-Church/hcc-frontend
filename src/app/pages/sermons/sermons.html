@@ -9,9 +9,21 @@
 
 <section class="content-section">
   <div class="container">
-    <div class="sermons-placeholder">
-      <p>Sermon recordings will be available here soon. In the meantime, please feel free to contact us for more information.</p>
-      <a routerLink="/contact" class="btn">CONTACT US</a>
+    <p class="sermons-intro">Listen to our sermon recordings on Spotify. More episodes are coming soon!</p>
+    <div class="spotify-embed">
+      <iframe
+        src="https://open.spotify.com/embed/show/033ySsW5KVCtZR75wJEFZb"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="Hope Covenant Church Sermons"
+        style="border-radius:12px">
+      </iframe>
+    </div>
+    <div class="sermons-note">
+      <p>In the meantime, please feel free to <a routerLink="/contact">contact us</a> for more information.</p>
     </div>
   </div>
 </section>

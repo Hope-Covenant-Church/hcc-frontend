@@ -24,35 +24,36 @@
   margin: 0 auto;
 }
 
-.sermons-placeholder {
+.sermons-intro {
   text-align: center;
-  padding: 4rem 1rem;
-}
-
-.sermons-placeholder p {
-  font-size: 1.1rem;
-  color: #718096;
+  font-size: 1.05rem;
+  color: #4a5568;
   margin-bottom: 2rem;
-  line-height: 1.7;
 }
 
-.btn {
-  display: inline-block;
-  background: #0078a7;
-  color: #fff;
-  padding: 0.85rem 2.25rem;
-  font-weight: 600;
-  border-radius: 6px;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: background 0.2s;
+.spotify-embed {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-.btn:hover {
-  background: #005f85;
+.sermons-note {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.sermons-note p {
+  font-size: 0.95rem;
+  color: #718096;
+}
+
+.sermons-note a {
+  color: #0078a7;
   text-decoration: none;
-  color: #fff;
+}
+
+.sermons-note a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
